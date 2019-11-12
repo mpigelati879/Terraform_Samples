@@ -9,8 +9,9 @@ resource "aws_vpc" "testing" {
 }
 
 resource "aws_subnet" "testing_subnet" {
+  count =   "${length(var.azs)}"
   vpc_id     = "${aws_vpc.testing.id }"
-  cidr_block = "${var.subnet-cidr_block}"
+  cidr_block = "${element(var.subnet-cidr_block,count.index)}"
 
   tags {
     name = "test_subnet"
