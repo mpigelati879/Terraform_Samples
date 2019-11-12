@@ -1,9 +1,9 @@
 variable "Taccess_key" {
-  default = "AKIAVS4FZVJMP243Y4GC"
+  default = ""
 }
 
 variable "Tsecret_key" {
-  default = "yUsYTqAMiZS1JyKSiwZ33RJ7oKl6uVdT4dzsMuIz"
+  default = ""
 }
 
 variable "Tregion" {
