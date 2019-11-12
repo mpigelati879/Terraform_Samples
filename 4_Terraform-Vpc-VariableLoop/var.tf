@@ -7,5 +7,5 @@ variable "Tsecret_key" {
 }
 
 variable "Tregion" {
-  default = ""
+  default = "us-east-1"
 }

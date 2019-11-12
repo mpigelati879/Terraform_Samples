@@ -1,4 +1,9 @@
 
 
-terraform  init
-terraform fmt
+Plugin-Dowanload:- terraform  init
+
+ideation  in file :- terraform fmt
+
+terraform plan && terraform apply
+
+Delate :- terraform destroy
