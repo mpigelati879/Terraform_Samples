@@ -1,9 +1,9 @@
 variable "Taccess_key" {
-  default = "AKIAVS4FZVJMCQF6NDAZ"
+  default = "AXKIAVS4FZVJMM5UV3MFI"
 }
 
 variable "Tsecret_key" {
-  default = "O8M9/DR3QAWIZHrh7OGsWreYxWdzN/UoHk9exzGe"
+  default = "2HLN0qGRQZjmDi5ziORpcnxez83oWC5rFQW4dxTt"
 }
 
 variable "Tami" {
