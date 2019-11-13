@@ -1,0 +1,2 @@
+In this example we are adding  the existing keypair to Terraform progeam and creating Security group and adding attaching
+    to ec2 instance

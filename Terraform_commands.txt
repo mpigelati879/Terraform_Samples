@@ -7,3 +7,7 @@ ideation  in file :- terraform fmt
 terraform plan && terraform apply
 
 Delate :- terraform destroy
+
+
+terraform apply -no-color -auto-approve
+terraform destroy -no-color -auto-approve
