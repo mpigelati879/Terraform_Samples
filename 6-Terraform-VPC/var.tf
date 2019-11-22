@@ -8,11 +8,11 @@ module "cluster" {
 }
 
 variable "Taccess_key" {
-  default = "AKIAVS4FZVJMMCJ3MN5O"
+  default = ""
 }
 
 variable "Tsecret_key" {
-    default = "RwnjB7Rp0jCv3Aikkd7kVfS2mMko7IAlACmNn0JN"
+    default = ""
 }
 
 variable "azs" {
