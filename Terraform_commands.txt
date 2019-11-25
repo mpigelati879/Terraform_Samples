@@ -1,5 +1,4 @@
 
-
 Plugin-Dowanload:- terraform  init
 
 ideation  in file :- terraform fmt
@@ -8,6 +7,37 @@ terraform plan && terraform apply
 
 Delate :- terraform destroy
 
+terraform destroy -no-color -auto-approve && terraform apply -no-color -auto-approve
 
-terraform apply -no-color -auto-approve
-terraform destroy -no-color -auto-approve
+
+terraform plan  --var-file test.tfwars
+
+aws s3api create-bucket --bucket terraform-backend-store   --region us-east-1 --create-bucket-configuration LocationConstraint=us-east-1
+
+
+
+
+Concepts
+
+----------------------------------------------------------------------------------------------------------
+1:- how-to-terraform-locking-state-in-s3
+
+https://medium.com/@jessgreb01/how-to-terraform-locking-state-in-s3-2dc9a5665cb6
+
+	
+
+---------------------------------------------------------------------------------------------------------------------
+2:- Terraform works paces
+
+terraform workspace list
+terraform workspace new PROD
+terraform works list
+
+terraform workspace select PROD
+https://www.terraform.io/docs/state/workspaces.html
+--------------------------------------------------
+
+3:- Terraform interpolation 
+
+
+terraform if condeation 

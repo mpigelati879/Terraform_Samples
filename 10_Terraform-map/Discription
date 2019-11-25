@@ -1,0 +1,6 @@
+In this example we are adding .ssh public key to Ec2 instance
+
+referance link :- https://ifritltd.com/2017/12/06/provisioning-ec2-key-pairs-with-terraform/
+
+
+change the Public IP :-  ssh -i "terraform_ec2_key" ubuntu@ec2-54-236-104-65.compute-1.amazonaws.com
